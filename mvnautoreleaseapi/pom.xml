@@ -8,5 +8,37 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>mvn-auto-release-api</artifactId>
-
+    <scm>
+        <connection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</connection>
+        <developerConnection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</developerConnection>
+        <url>https://github.com/Luolanjiao/test-auto-release.git</url>
+        <tag>HEAD</tag>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Releases</name>
+            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Snapshots</name>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <build>
+        <finalName>mvn-auto-release-api</finalName>
+        <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>3.0.0-M1</version>
+                    <configuration>
+                        <tagBase>https://github.com/Luolanjiao/test-auto-release/tree/tags</tagBase>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
