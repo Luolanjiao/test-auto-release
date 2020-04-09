@@ -4,10 +4,10 @@
     <parent>
         <artifactId>mvn-auto-release</artifactId>
         <groupId>com.sample.test.auto-release</groupId>
-        <version>1.0.5.1-SNAPSHOT</version>
+        <version>1.0.5.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <version>1.0.5.1-SNAPSHOT</version>
+    <version>1.0.5.2-SNAPSHOT</version>
     <artifactId>mvn-auto-release-service</artifactId>
     <packaging>war</packaging>
 
@@ -31,7 +31,7 @@
         <dependency>
             <groupId>com.sample.test.auto-release</groupId>
             <artifactId>mvn-auto-release-api</artifactId>
-            <version>1.0.5.1-SNAPSHOT</version>
+            <version>1.0.5.2-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
