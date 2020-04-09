@@ -5,7 +5,7 @@
     <groupId>com.sample.test.auto-release</groupId>
     <artifactId>mvn-auto-release</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.7-SNAPSHOT</version>
+    <version>1.0.5.1-SNAPSHOT</version>
     <modules>
         <module>mvnautoreleaseservice</module>
         <module>mvnautoreleaseapi</module>
@@ -14,7 +14,7 @@
         <connection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</connection>
         <developerConnection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</developerConnection>
         <url>https://github.com/Luolanjiao/test-auto-release.git</url>
-      <tag>HEAD</tag>
+      <tag>dev-1.0.5.1</tag>
     </scm>
     <distributionManagement>
         <repository>
