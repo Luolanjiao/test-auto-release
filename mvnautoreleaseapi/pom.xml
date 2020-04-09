@@ -3,9 +3,9 @@
     <parent>
         <artifactId>mvn-auto-release</artifactId>
         <groupId>com.sample.test.auto-release</groupId>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
     </parent>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>mvn-auto-release-api</artifactId>
@@ -13,7 +13,7 @@
         <connection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</connection>
         <developerConnection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</developerConnection>
         <url>https://github.com/Luolanjiao/test-auto-release.git</url>
-        <tag>mvn-auto-release-api-1.0.4</tag>
+        <tag>mvn-auto-release-1.0.4</tag>
     </scm>
     <distributionManagement>
         <repository>
