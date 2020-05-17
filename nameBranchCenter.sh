@@ -7,21 +7,21 @@ read -p "请为新的开发分支选择开发类型，0为bug，1为新需求，
 dev_date=`date +%Y%m%d`
 case ${dev_type} in
   0)
-  read -p "请输入禅道bug的id：" dev_bug_id
+  read -p "请输入禅道bug的id：" dev_mark
   echo ${dev_date}
   echo ${dev_bug_id}
-  dev_branch_name=hotfix-bug-${dev_date}-${dev_bug_id}
+  dev_branch_name=hotfix-bug-${dev_date}-${dev_mark}
   echo ${dev_branch_name}
   ;;
 
   1)
-  read -p "请输入新需求英文名：" dev_feature_name
-  dev_branch_name=feature-main-${dev_date}-${dev_feature_name}
+  read -p "请输入新需求英文名：" dev_mark
+  dev_branch_name=feature-main-${dev_date}-${dev_mark}
   ;;
 
   2)
-  read -p "请输入禅道任务id：" dev_optimize_id
-  dev_branch_name=hotfix-optimize-${dev_date}-${dev_optimize_id}
+  read -p "请输入禅道任务id：" dev_mark
+  dev_branch_name=hotfix-optimize-${dev_date}-${dev_mark}
   ;;
   *)
   echo "请输入可选的开发类型！"
