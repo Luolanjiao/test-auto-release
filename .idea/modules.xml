@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mvnautorelease.iml" filepath="$PROJECT_DIR$/mvnautorelease.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvnautoreleaseapi/mvnautoreleaseapi.iml" filepath="$PROJECT_DIR$/mvnautoreleaseapi/mvnautoreleaseapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvnautoreleaseservice/mvnautoreleaseservice.iml" filepath="$PROJECT_DIR$/mvnautoreleaseservice/mvnautoreleaseservice.iml" />
+    </modules>
+  </component>
+</project>
