@@ -31,10 +31,10 @@ esac
 
 # 再次确认
 read -p "请确认分支名：${dev_branch_name},y/n? " confirm_answer
-n=$["n"]
-if test $[confirm_answer] -eq $[n]
+if [ ${confirm_answer} == "n" ]
 then
-echo "您已取消创建分支！"
+echo "您已取消创建分支！">&2
+exit 1
 fi
 
 

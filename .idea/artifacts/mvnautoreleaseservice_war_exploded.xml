@@ -7,7 +7,7 @@
           <element id="module-output" name="mvnautoreleaseservice" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="mvn-auto-release-api-1.0.9-hello-SNAPSHOT.jar">
+          <element id="archive" name="mvn-auto-release-api-1.0.10--SNAPSHOT.jar">
             <element id="module-output" name="mvnautoreleaseapi" />
           </element>
         </element>
