@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mvnautoreleaseservice:war exploded">
+    <output-path>$PROJECT_DIR$/mvnautoreleaseservice/target/mvn-auto-release-service</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mvnautoreleaseservice" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="mvn-auto-release-api-1.0.10--SNAPSHOT.jar">
+            <element id="module-output" name="mvnautoreleaseapi" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/mvnautoreleaseservice/target/mvn-auto-release-service/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mvnautoreleaseservice/web/Web" />
+    </root>
+  </artifact>
+</component>
