@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>mvn-auto-release</artifactId>
-        <groupId>com.sample.test.auto-release</groupId>
-        <version>1.0.12-100-SNAPSHOT</version>
-    </parent>
-    <version>1.0.12-100-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mvn-auto-release-api</artifactId>
+    <groupId>com.sample.test.auto-release</groupId>
+    <artifactId>mvn-auto-release</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.6-SNAPSHOT</version>
+    <modules>
+        <module>mvnautoreleaseservice</module>
+        <module>mvnautoreleaseapi</module>
+    </modules>
     <scm>
         <connection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</connection>
         <developerConnection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</developerConnection>
         <url>https://github.com/Luolanjiao/test-auto-release.git</url>
         <tag>dev-1.0.5.1</tag>
     </scm>
+    <repositories>
+        <repository>
+            <id>public-aaa</id>
+            <name>publicaaa</name>
+            <url>http://localhost:8081/nexus/content/repositories/public</url>
+            <releases><enabled>true</enabled></releases>
+            <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+    </repositories>
     <distributionManagement>
         <repository>
             <id>releases</id>
@@ -42,4 +52,5 @@
             </plugins>
         </pluginManagement>
     </build>
+
 </project>
