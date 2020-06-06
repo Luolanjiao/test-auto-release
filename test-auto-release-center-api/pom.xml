@@ -8,7 +8,7 @@
     <version>1.0.12-100-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mvn-auto-release-api</artifactId>
+    <artifactId>mvn-auto-release-center-api</artifactId>
     <scm>
         <connection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</connection>
         <developerConnection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</developerConnection>
@@ -28,7 +28,7 @@
         </snapshotRepository>
     </distributionManagement>
     <build>
-        <finalName>mvn-auto-release-api</finalName>
+        <finalName>mvn-auto-release-center-api</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>

@@ -8,7 +8,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <version>1.0.12-100-SNAPSHOT</version>
-    <artifactId>mvn-auto-release-service</artifactId>
+    <artifactId>mvn-auto-release-center-service</artifactId>
     <packaging>war</packaging>
 
     <name>mvn-auto-release-service Maven Webapp</name>
@@ -30,13 +30,13 @@
         </dependency>
         <dependency>
             <groupId>com.sample.test.auto-release</groupId>
-            <artifactId>mvn-auto-release-api</artifactId>
+            <artifactId>mvn-auto-release-center-api</artifactId>
             <version>1.0.12-100-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>mvn-auto-release-service</finalName>
+        <finalName>mvn-auto-release-center-service</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>

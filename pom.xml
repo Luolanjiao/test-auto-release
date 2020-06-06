@@ -7,8 +7,8 @@
     <packaging>pom</packaging>
     <version>1.0.12-100-SNAPSHOT</version>
     <modules>
-        <module>test-auto-release-api</module>
-        <module>test-auto-release-service</module>
+        <module>test-auto-release-center-api</module>
+        <module>test-auto-release-center-service</module>
     </modules>
     <scm>
         <connection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</connection>
@@ -38,7 +38,7 @@
         </snapshotRepository>
     </distributionManagement>
     <build>
-        <finalName>mvn-auto-release-api</finalName>
+        <finalName>mvn-auto-release-center-api</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
