@@ -7,8 +7,8 @@
     <packaging>pom</packaging>
     <version>1.0.12-100-SNAPSHOT</version>
     <modules>
-        <module>mvnautoreleaseservice</module>
-        <module>mvnautoreleaseapi</module>
+        <module>test-auto-release-api</module>
+        <module>test-auto-release-service</module>
     </modules>
     <scm>
         <connection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</connection>
