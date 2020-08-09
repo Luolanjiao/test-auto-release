@@ -5,7 +5,7 @@
     <groupId>com.sample.test.auto-release</groupId>
     <artifactId>mvn-auto-release</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.13-SNAPSHOT</version>
+    <version>1.0.12</version>
     <modules>
         <module>test-auto-release-center-api</module>
         <module>test-auto-release-center-service</module>
