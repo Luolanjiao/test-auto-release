@@ -6,7 +6,7 @@
         <version>1.0.12</version><!--test2-->
     </parent>
     <version>1.0.1-test2-SNAPSHOT</version><!--test2-->
-    <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.1</modelVersion>
 
     <artifactId>mvn-auto-release-center-api</artifactId>
     <scm>
