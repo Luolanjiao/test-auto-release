@@ -3,7 +3,7 @@
     <parent>
         <artifactId>mvn-auto-release</artifactId>
         <groupId>com.sample.test.auto-release</groupId>
-        <version>1.0.12</version>
+        <version>1.0.11</version>
     </parent>
     <version>1.0.1-test2-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
