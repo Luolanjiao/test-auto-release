@@ -4,7 +4,7 @@
         <artifactId>mvn-auto-release</artifactId>
         <groupId>com.sample.test.auto-release</groupId>
         <version>1.0.12</version><!--test2-->
-    </parent>
+    </parent><!--master2提交一个更改，不想被cherry pick引用-->
     <version>1.0.1-test2-SNAPSHOT</version><!--test2-->
     <modelVersion>4.0.1</modelVersion>
     <!--master02更改-->
