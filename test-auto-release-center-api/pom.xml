@@ -7,7 +7,7 @@
     </parent>
     <version>1.0.1-test2-SNAPSHOT</version><!--test2-->
     <modelVersion>4.0.1</modelVersion>
-
+    <!--master02更改-->
     <artifactId>mvn-auto-release-center-api</artifactId>
     <scm>
         <connection>scm:git:https://github.com/Luolanjiao/test-auto-release.git</connection>
