@@ -7,7 +7,7 @@
         <version>1.0.12</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <version>1.0.1-test2-SNAPSHOT</version>
+    <version>1.0.1-1018-SNAPSHOT</version>
     <artifactId>mvn-auto-release-center-service</artifactId>
     <packaging>war</packaging>
 
@@ -45,7 +45,7 @@
         <dependency>
             <groupId>com.sample.test.auto-release</groupId>
             <artifactId>mvn-auto-release-center-api</artifactId>
-            <version>1.0.1-test2-SNAPSHOT</version>
+            <version>1.0.1-1018-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
